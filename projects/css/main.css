@@ -1,0 +1,1440 @@
+@import url(./bootstrap.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* start-header */
+header {
+    padding: 6px 0;
+    background-color: #242434;
+    color: white;
+    position: relative;
+}
+
+header .head-all {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+}
+
+header .head-all .head-text {
+    position: absolute;
+    right: 40%;
+}
+
+header .head-all .head-text .head-p1 {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+header .head-all .head-icons a {
+    color: white;
+}
+
+header .head-all .head-icons i {
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+header .head-all .head-icons .a1 {
+    margin-left: 20px;
+}
+
+header .head-all .head-icons i:hover {
+    color: #DB9457;
+}
+
+/* end header */
+
+
+
+
+
+/* start part1 */
+.part1 .part1-img {
+    height: 750px;
+    background-image: url(../img/main-hero-coffee-cup.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.collapse .nav-img {
+    text-align: center;
+}
+
+.collapse .nav-img img {
+    width: 50%;
+}
+
+.collapse .navbar-nav li .nav-link {
+    padding: 20px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #242434;
+}
+
+.part1-btn-login a {
+    background-color: #DB9457;
+    border-radius: 50px;
+}
+
+.navbar-nav .part1-btn-login a:hover {
+    background-color: #242434;
+}
+
+.collapse .navbar-nav li .nav-link:hover {
+    color: #DB9457;
+}
+
+.dropdown-menu {
+    background-color: #242434;
+    width: 250px;
+    height: 250px;
+}
+
+.dropdown-menu li .dropdown-item1 {
+    display: block;
+    line-height: 1.8;
+    width: 70%;
+    margin: 20px;
+    font-size: 14px;
+    color: #cecdcd;
+    font-weight: 600;
+    padding-bottom: 16px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.dropdown-menu li .dropdown-item1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    border-bottom: 1px solid #E2DDD9;
+}
+
+.dropdown-menu li .dropdown-item3::after {
+    border-bottom: transparent;
+}
+
+.dropdown-menu li .dropdown-item1:hover {
+    color: #DB9457;
+}
+
+.menu-shop {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-shop .dropdown-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E2DDD9;
+    background-color: transparent;
+
+}
+
+.menu-shop .dropdown-item:hover {
+    color: #DB9457;
+}
+
+.part1-navbar {
+    padding-bottom: 10px;
+}
+
+
+.part1-texts {
+    width: 50%;
+    position: absolute;
+    margin-top: 70px;
+    transform: translate(100px, 80px);
+}
+
+.part1-texts span {
+    display: inline-block;
+    transform: rotate(270deg);
+    position: relative;
+    top: 188px;
+    right: 170px;
+
+
+}
+
+.part1-texts .part1-text1 h1 {
+    width: 53%;
+    font-size: 53px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.part1-texts p {
+    width: 66%;
+    line-height: 1.8;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 0;
+}
+
+.btn a {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #DB9457;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+
+.btn a:hover {
+    color: white;
+    background-color: #DB9457;
+}
+
+.part1-text1 {
+    margin-left: 20px;
+
+}
+
+
+
+.part2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.part2 .part2-p1 {
+    color: #DB9457;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.part2 .part2-p2 {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 70px;
+}
+
+.part2 h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.line {
+    height: 50px;
+    width: 3px;
+    margin: 20px auto;
+    background-color: #DB9457;
+}
+
+.part2 .card {
+    border: none;
+    width: 95%;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card .card-text1 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+
+.card .card-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.card .card-text3 {
+    margin-top: 30px;
+    color: #DB9457;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0);
+    transition: all .5s
+}
+
+.card:hover .card-text3 {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-3px);
+
+}
+
+.part3 {
+    padding-top: 90px;
+}
+
+
+
+
+
+
+.part3-img {
+    height: 500px;
+
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.img1 {
+    background-image: url(../img/coffeebean-coffee-cup-black.jpg);
+}
+
+.img2 {
+    background-image: url(../img/leaf.jpg);
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(../img/coffeebean-iced-coffee-1.jpg);
+}
+
+.part3-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.212);
+    z-index: -1;
+}
+
+.part3-p1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.part3-h3 {
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.part3-p2 {
+    margin: 40px 0;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.part3-img a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none;
+    width: 35%;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.part3-img a:hover {
+    background-color: #242434;
+    color: white;
+}
+
+.part4 {
+    text-align: center;
+    padding: 90px 0;
+}
+
+.part4-p1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.part4-p2 {
+    width: 46%;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 50px;
+}
+
+.part5 {
+    margin: 90px 0;
+}
+
+.part5-img {
+    height: 210px;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.p5-img1 {
+    background-image: url(../img/120195602_249178153140668_4124167805856436187_nlow.jpg);
+}
+
+.p5-img2 {
+    background-image: url(../img/119886667_102416571596524_8435132330489653478_nlow.jpg);
+}
+
+.p5-img3 {
+    background-image: url(../img/120132785_621075875245187_3739656102265052935_nlow.jpg);
+}
+
+.p5-img4 {
+    background-image: url(../img/120133763_792102311603530_7871492403308681854_nlow.jpg);
+
+}
+
+.p5-img5 {
+    background-image: url(../img/120031798_200401764795682_5230375972606461977_nlow.jpg);
+
+}
+
+.p5-img6 {
+    background-image: url(../img/120176363_371642934002855_8797918585875241459_nlow.jpg);
+
+}
+
+.part5-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    transition: all .5s;
+}
+
+.part5-img:hover::after {
+    background-color: rgba(122, 122, 122, 0.231);
+
+}
+
+.part6 {
+    margin: 90px 0;
+}
+
+.part6-text {
+    padding: 90px 0;
+    background-color: #F6F6F7;
+    text-align: center;
+
+}
+
+.part6-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.part6-p1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.part6-btn input {
+    background-color: transparent;
+    border: 1px solid #E6E6EA;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.part6-btn a {
+    margin-left: 25px;
+    padding: 15px 40px;
+    background-color: #242434;
+    border: 1px solid #242434;
+    text-decoration: none;
+    color: #DB9457;
+}
+
+.part6-btn a:hover {
+    color: white;
+    border: 1px solid #DB9457;
+    background-color: #DB9457;
+}
+
+.part7 .part7-text {
+    height: 300px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.part7 .part7-text h2 {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.part7 .part7-text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #3a3a3b;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.p7-background1 {
+    background-color: #F6F6F7;
+}
+
+.p7-background2 {
+    background-color: #E2DDD9;
+}
+
+.part7 .part7-text i {
+    font-size: 43px;
+}
+
+.part7-text3 {
+    padding-top: 25px;
+}
+
+.fa-leaf {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+    background-color: #101020;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer ul {
+    text-align: center;
+
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+
+.foot-list a {
+    line-height: 2.5;
+}
+
+.foot-list a:hover {
+    color: #DB9457;
+}
+
+
+.foot-list i {
+    padding-right: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.foot-list i:hover {
+    color: #DB9457;
+}
+
+.foot-texts {
+    padding-bottom: 40px;
+}
+
+.foot-bottom {
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.foot-bottom img {
+    margin: auto;
+    width: 30%;
+}
+
+/* aaaaaaaaaabbbbbbbbbbooooooooutttttt page */
+
+
+.container-about {
+    width: 95%;
+    margin: auto;
+}
+
+.part1-about {
+    box-shadow: 0 -2px #686868;
+}
+
+.part2-about {
+    padding-bottom: 50px;
+}
+
+.part2-about-text {
+
+
+    transform: translateY(80px);
+    text-align: start;
+}
+
+.part2-about-p1 {
+    color: #DB9457;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.part2-about-h2 {
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.part2-about-h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #DB9457;
+}
+
+.part2-about-p2 {
+    width: 90%;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #3A3A3B;
+    line-height: 1.7;
+}
+
+.part2-about-s1 {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+.part2-about-video video {
+    width: 100%;
+    height: 800PX;
+
+}
+
+
+.part3-about {
+    padding: 90px 0;
+}
+
+.part3-about-p1 {
+    color: #DB9457;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+}
+
+.part3-about-texts {
+    text-align: center;
+}
+
+.part3-about-texts h2 {
+    width: 35%;
+    margin: auto;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.part3-about-p2 {
+    width: 38%;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.part4-about-img {
+    overflow: hidden;
+}
+
+.imgg {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1);
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.imgg:hover {
+    transform: scale(1.1);
+}
+
+.part4-about-img1 {
+    height: 700px;
+    background-image: url(../img/coffeebean-01-1600x1600.jpg);
+}
+
+.part4-about-img2 {
+    background-image: url(../img/coffeebean-beans-7-1600x1539.jpg);
+}
+
+.part4-about-img3 {
+    background-image: url(../img/coffeebean-beans-square.jpg);
+}
+
+.part4-about-img4 {
+    background-image: url(../img/coffeebean-hero-coffeeshop.jpg);
+}
+
+.part5-about {
+    padding-top: 90px;
+}
+
+.part5-about-img1 {
+    height: 600px;
+}
+
+.part5-about-img1 {
+    height: 800px;
+    background-image: url(../img/coffeebean-beans-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.part5-about-p1 {
+    word-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #DB9457;
+}
+
+.part5-about-text .part5-about-h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+
+}
+
+.part5-about-h2::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #DB9457;
+}
+
+
+
+
+
+.part5-about-p2 {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* FFFFFFFFFAAAAAAAQQQQQQQ */
+.part2-faq {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.part2-faq-texts {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.part2-faq-text1 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+.accordion-item button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.accordion-body {
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3a3a3b;
+    line-height: 1.6;
+}
+
+/* wholesale */
+.part1-wholesale .navbar {
+    background-color: transparent;
+}
+
+
+.part2-wholesale {
+    padding: 80px 0;
+}
+
+.part2-wholesale-text {
+    margin: auto;
+    width: 38%;
+}
+
+.part2-wholesale-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #101020;
+    padding-bottom: 30px;
+}
+
+.part2-wholesale-text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #3a3a3b;
+
+}
+
+.part2-wholesale-s1 {
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.part2-wholesale-inputs .input {
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 45px;
+}
+
+.part2-wholesale-inputs .input label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #101020;
+    padding-bottom: 5px;
+}
+
+.part2-wholesale-inputs .input input,
+select {
+    padding: 12px 0;
+    border: 1px solid #68686855;
+}
+
+
+.part2-wholesale-inputs button {
+    padding: 13px 40px;
+    background-color: #242434;
+    color: #DB9457;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.part2-wholesale-inputs button:hover {
+    background-color: #DB9457;
+    color: #242434;
+    border: 1px solid #DB9457;
+}
+
+.part2-wholesale-inputs .input textarea {
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    border: 1px solid #68686855;
+
+}
+
+
+
+
+
+/* locations */
+.part2-location-text {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+}
+
+.part2-location-img {
+    height: 700px;
+    background-size: cover;
+}
+
+.location-img1 {
+    background-image: url(../img/coffeebean-coffeeshop-1-1024x1024.jpg);
+}
+
+.location-img2 {
+    background-image: url(../img/coffee-bean-cafe-1024x1024.jpg);
+}
+
+.location-img3 {
+    background-image: url(../img/coffebean-location-3-1024x1024.jpg);
+}
+
+.part2-location-p1 {
+    color: #DB9457;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.part2-location-text h3 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #101020;
+    font-family: 'Playfair Display', serif;
+}
+
+.part2-location-p2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #3a3a3b;
+    width: 27%;
+}
+
+.part2-location-s1 {
+    display: inline-block;
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3a3a3b;
+}
+
+.part2-location-text a {
+    padding: 15px 40px;
+    text-decoration: none;
+    border: 1px solid #DB9457;
+    background-color: transparent;
+    color: #101020;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.part2-location-text a:hover {
+    background-color: #DB9457;
+    color: white;
+}
+
+.location-p2 {
+    margin: 0 auto;
+    width: 22%;
+}
+
+.part2-location-p2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #3a3a3b;
+    width: 27%;
+}
+
+
+/* ssssshhhhhhoooooopppppp */
+.part2-shop .name-shop {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.part2-shop .nav li {
+    color: #101020;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* loginnnnnnnnn */
+/* start-part1 */
+.login {
+    height: 900px;
+    background-image: url(../img/top-view-coffee-with-copy-space_23-2148464826.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.part1-login .navbar .navbar-collapse ul li a {
+    color: white;
+}
+
+/* end-part1 */
+
+
+
+/* start-part1 */
+
+.login .login-texts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-texts p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 60px;
+}
+
+/* end-part1 */
+
+
+
+
+/* start-part1 */
+
+
+.login .login-btn {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login .login-btn .button {
+    background-color: #db9557de;
+    width: 120px;
+    height: 30px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.login .login-btn .button::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/pngtree-coffee-logo-png-image_2833186.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    transition: 0.2s;
+    margin-top: -10px;
+}
+
+.checkbox:checked+.button::before {
+
+    transform: translateX(70px);
+}
+
+input:checked+.button+.login-p .login-sign-up {
+    display: block;
+    color: red;
+}
+
+input:checked+.button+.login-p .login-login-in {
+    display: none;
+}
+
+.checkbox {
+    display: none;
+}
+
+
+.login-p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login-sign-up {
+    display: none;
+}
+
+
+
+.logins input {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 130px 0 130px 0;
+    height: 60px;
+    margin: 15px auto;
+    color: white;
+    letter-spacing: 1.5px;
+    background-color: #242434;
+    border: white 1px solid;
+    animation-name: sd;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+@keyframes sd {
+    0% {}
+
+    50% {
+        border: #DB9457 2px solid;
+
+    }
+
+}
+
+
+
+.logins a {
+    width: 160px;
+    height: 55px;
+    margin: auto;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #242434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.logins a::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+    z-index: -1;
+    animation: dd 5s linear infinite;
+
+}
+
+
+.logins a::after {
+    content: "";
+    position: absolute;
+    background-color: #DB9457;
+    width: 95%;
+    height: 82%;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+@keyframes dd {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+ .logins a:hover {
+    color: white;
+} 
+
+ .login-p1 {
+    color: #DB9457;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-click a {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #DB9457;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    z-index: 5;
+}
+
+.btn-click a i {
+    color: white;
+    margin-top: 18px;
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .navbar-collapse {
+        height: 553px;
+        padding-top: 30px;
+        position: absolute;
+        top: 65px;
+        background-color: #ffffff;
+        width: 700px;
+        z-index: 6;
+        border-radius: 5px;
+    }
+
+    .navbar-collapse .nav-img {
+        position: absolute;
+        top: -45px;
+        left: 33%;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        transform: translate(126px, -26px);
+    }
+
+    .collapse .navbar-nav li .nav-login {
+        text-align: center;
+    }
+
+
+    .part1-texts {
+        width: 85%
+    }
+
+    .part1-texts .part1-text1 h1 {
+        width: 58%;
+        font-size: 48px;
+    }
+
+    .part1-texts p {
+        width: 60%;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../img/coffee-cup.png);
+    }
+
+    .part4-p2 {
+        width: 70%;
+
+    }
+
+    .foot-bottom p {
+        font-size: 12px;
+    }
+
+    .foot-list ul {
+        padding-left: 0;
+    }
+
+    .part2-location-img {
+        height: 700px;
+        background-size: 100% 100%;
+        background-position: center;
+        background-size: cover;
+        border-image-repeat: round;
+    }
+
+    .part2-location-img {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .part2-location-p2 {
+
+        width: 65%;
+    }
+
+    .part3-about-texts h2 {
+        width: 80%;
+    }
+
+    .part3-about-p2 {
+        width: 81%;
+        line-height: 1.9;
+    }
+
+    .part5-about-texts {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width:625px)
+{
+   .navbar-collapse {
+    width: 308px;
+} 
+
+
+.dropdown-menu li .dropdown-item1 {
+
+    font-size: 10px;
+
+}
+.dropdown-menu {
+    width: 158px;
+    height: 220px;
+}
+.menu-shop {
+    height: 50px;
+}
+.foot-bottom p {
+    margin-bottom: 0;
+}
+.foot-bottom img {
+    margin: 14px auto;
+}
+.foot-list
+{
+    padding-top: 12px;
+    position: relative;
+}
+.foot-list::after
+{
+    content: "";
+    position: absolute;
+    left:40%;
+    bottom:0;
+    padding-bottom: 10px;
+    width:20%;
+    border-bottom: 2px solid #DB9457;
+}
+
+
+
+.part6-btn a {
+
+    display: block;
+    width: 46%;
+    margin: 15px auto;
+}
+
+
+
+.part1-texts {
+    width: 70%;
+}
+.part1-text1
+{
+    margin-left: 0;
+
+}
+.part1-texts .part1-text1 h1 {
+    width: 88%;
+    font-size: 35px;
+}
+.part1-texts p {
+    width: 100%;
+    margin-top: 48px;
+    padding-bottom: 30px;
+}
+.part2-wholesale-text {
+    width: 50%;
+}
+.part2-wholesale-text h2 {
+
+    font-size: 24px;
+
+}
+.part2-faq {
+    padding-top: 0px;
+}
+.part2-faq-texts {
+    width: 95%;
+}
+}
+
